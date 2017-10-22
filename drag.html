@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/css;charset=UTF-8" />
+<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+	}
+	.div1{
+
+		height:500px;
+		background:#fff;
+		border:1px solid black;
+		position: absolute;
+		z-index: 2;
+
+	}
+	.div2{
+
+		height:50px;
+		background:orange;
+
+
+	}
+	.title{
+		position: absolute;
+		left: 20px;
+		font-size: 30px;
+	}
+	.goBig{
+		position: absolute;
+		right:50px;
+	}
+	.goSmall{
+		position: absolute;
+		right:30px;
+	}
+	.close{
+		position: absolute;
+		right:5px;
+	}
+	.mark{
+        background: gray;
+        opacity: 0.4;
+        z-index: 1;
+        position: absolute;
+        top:0;
+        left:0;
+	}
+</style>
+<script type="text/javascript" src="drag.js">
+    
+</script>
+</head>
+<body>
+	<input type="button" name="" value="登录"/>
+	<input type="button" name="" value="菜单"/>
+	<input type="button" name="" value="公告"/>
+	<!-- <div class="div1">
+		<div class="div2">
+			<span class="title">公告</span>
+			<span class="goBig">口</span>
+			<span class="goSmall">-</span>
+			<span class="close">×</span>
+		</div>
+	</div> -->
+	<!-- <div id="mark"></div> -->
+    <div id="div"></div>
+</body>
+</html>
